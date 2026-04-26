@@ -18,7 +18,7 @@ struct Snake {
     Direction dir;
 };
 
-// 函式宣告（保留你原本名字）
+// 函式宣告
 void drawSnake(deque<Snake>& snake);
 void moveSnake(deque<Snake>& snake, bool grow = false);
 void changeDirection(deque<Snake>& snake);
